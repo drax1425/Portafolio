@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1770740360579,
+    "name_en": "LocalPOS",
+    "name_es": "LocalPOS",
+    "url": "#",
+    "landing": "localpos",
+    "description_en": "Cross-platform mobile POS app for food cart sales in Chile. Features automated 19% VAT calculation, Bluetooth thermal receipt printing, and offline-first SQLite architecture.",
+    "description_es": "App móvil POS multiplataforma para ventas de carritos de comida en Chile. Incluye cálculo automático de IVA (19%), impresión de boletas vía Bluetooth y arquitectura offline con SQLite.",
+    "image": "/images/garabiti-icon.png",
+    "techs": [
+      "React Native",
+      "TypeScript",
+      "SQLite",
+      "Bluetooth"
+    ],
+    "features_en": [
+      "Full product management with configurable VAT",
+      "POS with automated VAT calculation (19%)",
+      "Payment methods: Cash, Card, Transfer",
+      "Bluetooth receipt printing (ESC/POS)",
+      "Daily and monthly sales reports (F29)",
+      "Excel export (.xlsx)",
+      "Local SQLite database (offline capable)"
+    ],
+    "features_es": [
+      "Gestión completa de productos con IVA configurable",
+      "Punto de venta con cálculo automático de IVA (19%)",
+      "Métodos de pago: Efectivo, Tarjeta, Transferencia",
+      "Impresión de boletas vía Bluetooth (ESC/POS)",
+      "Resumen de ventas diarias y mensual (F29)",
+      "Exportación a Excel (.xlsx)",
+      "Base de datos local SQLite (funciona sin internet)"
+    ]
+  },
+  {
+    "id": 1771521740875,
+    "name_en": "Coffe Bless",
+    "name_es": "Coffe Bless",
+    "url": "https://coffe-bless.vercel.app",
+    "description_en": "Modern landing page for a local café. Digital menu with WhatsApp ordering, admin panel for real-time management, virtual pet game, and dark mode.",
+    "description_es": "Landing page moderna para cafetería local. Menú digital con pedidos por WhatsApp, panel admin para gestión en tiempo real, mascota virtual interactiva y modo oscuro.",
+    "image": "/images/coffe-bless-logo.png",
+    "techs": [
+      "React",
+      "Vite",
+      "Vercel",
+      "CSS"
+    ],
+    "features_en": [
+      "Digital Menu with categories",
+      "WhatsApp Ordering system",
+      "Admin Panel for management",
+      "Interactive Virtual Pet game",
+      "Dark Mode",
+      "Responsive Design"
+    ],
+    "features_es": [
+      "Menú Digital con categorías",
+      "Sistema de Pedidos por WhatsApp",
+      "Panel Admin para gestión",
+      "Mascota Virtual interactiva",
+      "Modo Oscuro",
+      "Diseño Responsivo"
+    ]
+  },
+  {
+    "id": 1772130000000,
+    "name_en": "CartaYa",
+    "name_es": "CartaYa",
+    "url": "https://gocartaya.cl",
+    "description_en": "SaaS platform for digital restaurant menus in Chile, with QR codes, WhatsApp ordering, subscription plans, and Mercado Pago integration.",
+    "description_es": "Plataforma SaaS para menús digitales de restaurantes en Chile, con QR, pedidos por WhatsApp, planes de suscripción e integración con Mercado Pago.",
+    "image": "/images/cartaya-logo.png",
+    "techs": [
+      "Next.js",
+      "React",
+      "Supabase",
+      "Mercado Pago",
+      "Vercel"
+    ],
+    "features_en": [
+      "Public digital menu with QR and WhatsApp ordering",
+      "Admin dashboard for products, categories, and branding",
+      "Subscription plans (Free, Pro, Premium) with Mercado Pago Checkout Pro",
+      "Premium features: multiple menus (salon/delivery/events), smart stock, and advanced analytics",
+      "Webhook-based plan upgrade flow and billing tracking"
+    ],
+    "features_es": [
+      "Menú digital público con QR y pedidos por WhatsApp",
+      "Panel admin para gestionar productos, categorías y marca",
+      "Planes de suscripción (Free, Pro, Premium) con Mercado Pago Checkout Pro",
+      "Funcionalidades Premium: múltiples cartas (salón/delivery/eventos), stock inteligente y estadísticas avanzadas",
+      "Flujo de upgrade y cobro automático con webhooks y registro de pagos"
+    ]
+  }
+]
