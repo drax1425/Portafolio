@@ -50,7 +50,7 @@ export default function Experience({ t, lang }) {
       {
         degree: "Técnico en Ciberseguridad",
         school: "IPP Instituto Profesional de Providencia",
-        date: "2025 — En curso",
+        date: "2026 — En curso",
         desc: "Seguridad informática, redes, análisis de vulnerabilidades."
       },
       {
@@ -64,7 +64,7 @@ export default function Experience({ t, lang }) {
       {
         degree: "Cybersecurity Technician",
         school: "IPP Instituto Profesional de Providencia",
-        date: "2025 — Present",
+        date: "2026 — Present",
         desc: "Information security, networks, vulnerability analysis."
       },
       {
