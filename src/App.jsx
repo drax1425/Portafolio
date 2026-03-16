@@ -17,6 +17,7 @@ import projectsData from './data/projects.json'
 function App() {
   const [lang, setLang] = useState('es')
   const [viewingLanding, setViewingLanding] = useState(null)
+  const [copied, setCopied] = useState(false)
   const t = strings[lang]
 
   useEffect(() => {
@@ -26,6 +27,13 @@ function App() {
 
   const scrollTo = (id) => {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })
+  }
+
+  const handleCopyEmail = (e) => {
+    e.preventDefault()
+    navigator.clipboard.writeText('andresbarahona906@gmail.com')
+    setCopied(true)
+    setTimeout(() => setCopied(false), 2000)
   }
 
   // --- Secondary app state: LocalPOS Landing view ---
@@ -92,16 +100,18 @@ function App() {
                 ? 'Actualmente buscando oportunidades en Desarrollo Web y Ciberseguridad. Mi bandeja de entrada siempre está abierta.' 
                 : 'Currently looking for opportunities in Web Development and Cybersecurity. My inbox is always open.'}
             </motion.p>
-            <motion.a 
-              href="mailto:andresbarahona906@gmail.com"
-              className="inline-block px-8 py-4 bg-emeraldAccent hover:bg-emerald-400 text-slate-900 font-bold rounded-lg transition-colors duration-200"
+            <motion.button 
+              onClick={handleCopyEmail}
+              className="inline-block px-8 py-4 bg-emeraldAccent hover:bg-emerald-400 text-slate-900 font-bold rounded-lg transition-colors duration-200 cursor-pointer"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.2 }}
             >
-              {lang === 'es' ? 'Saludar' : 'Say Hello'}
-            </motion.a>
+              {copied 
+                ? (lang === 'es' ? '¡Correo copiado!' : 'Email copied!') 
+                : (lang === 'es' ? 'Saludar' : 'Say Hello')}
+            </motion.button>
           </div>
         </section>
       </main>
