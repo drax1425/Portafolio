@@ -1,0 +1,52 @@
+{
+  "es": {
+    "hero": {
+      "greeting": "Hola, mi nombre es",
+      "name": "Andrés Barahona",
+      "title": "Desarrollador Web & Estudiante de Ciberseguridad",
+      "tagline": "Me especializo en construir soluciones web seguras de extremo a extremo, desde sistemas POS funcionales hasta plataformas SaaS en producción.",
+      "cta": "Mejores Proyectos",
+      "contact": "Contacto"
+    },
+    "about": {
+      "heading": "Sobre Mí",
+      "bio": "Este año ingreso a estudiar Técnico en Ciberseguridad en el IPP. Anteriormente cursé 3 años de Ingeniería en Informática en Duoc UC. Apasionado por la intersección entre el desarrollo web y la seguridad informática. Disfruto creando aplicaciones que no solo se vean bien, sino que estén construidas sobre bases sólidas.",
+      "highlights": [
+        { "label": "Desarrollo Frontend", "desc": "Interfaces dinámicas y Responsivas con React.js y Tailwind CSS." },
+        { "label": "Arquitectura Segura", "desc": "Protección de rutas, RLS en bases de datos y buenas prácticas de autenticación." },
+        { "label": "Resolución de Problemas", "desc": "Automatización de cálculos pesados (como el IVA) e integración de hardware (impresoras Bluetooth)." }
+      ]
+    },
+    "skills": {
+      "heading": "Tecnologías & Herramientas"
+    },
+    "projects": {
+      "heading": "Proyectos Destacados"
+    }
+  },
+  "en": {
+    "hero": {
+      "greeting": "Hi, my name is",
+      "name": "Andrés Barahona",
+      "title": "Web Developer & Cybersecurity Student",
+      "tagline": "I specialize in building secure, end-to-end web solutions, from functional POS systems to full-fledged SaaS platforms in production.",
+      "cta": "Top Projects",
+      "contact": "Contact"
+    },
+    "about": {
+      "heading": "About Me",
+      "bio": "Entering the Cybersecurity Technician program at IPP this year. Previously studied 3 years of Informatics Engineering at Duoc UC. Passionate about the intersection between web development and information security. I enjoy creating applications that not only look good, but are built on solid foundations.",
+      "highlights": [
+        { "label": "Frontend Development", "desc": "Dynamic and responsive interfaces with React.js and Tailwind CSS." },
+        { "label": "Secure Architecture", "desc": "Route protection, RLS in databases, and strong authentication practices." },
+        { "label": "Problem Solving", "desc": "Heavy calculation automation (like VAT) and hardware integration (Bluetooth POS printers)." }
+      ]
+    },
+    "skills": {
+      "heading": "Technologies & Tools"
+    },
+    "projects": {
+      "heading": "Featured Projects"
+    }
+  }
+}
