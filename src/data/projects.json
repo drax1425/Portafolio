@@ -98,7 +98,7 @@
     "id": 1773500000001,
     "name_en": "TableOS",
     "name_es": "TableOS",
-    "url": "https://github.com/drax1425/tableOS-",
+    "url": "https://table-os-delta.vercel.app/",
     "description_en": "Smart POS system for Chilean cafés and restaurants. Handles order management, real-time kitchen display, recipe-based inventory control, and sales reports — all in one platform.",
     "description_es": "Sistema POS inteligente para cafeterías y restaurantes chilenos. Gestión de pedidos, pantalla de cocina en tiempo real, control de inventario por receta y reportes de ventas — todo en uno.",
     "image": "/images/tableos-icon.png",
