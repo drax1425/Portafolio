@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { Globe, Github } from 'lucide-react'
+import { Globe, Github, Linkedin } from 'lucide-react'
 
 import Hero         from './components/Hero'
 import About        from './components/About'
@@ -83,6 +83,15 @@ function App() {
               className="text-slate-400 hover:text-emeraldAccent transition-colors"
             >
               <Github size={20} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/andres-barahona-9a6120258"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+              className="text-slate-400 hover:text-emeraldAccent transition-colors"
+            >
+              <Linkedin size={20} />
             </a>
             <button
               onClick={() => setLang(l => l === 'es' ? 'en' : 'es')}
