@@ -1,0 +1,74 @@
+{
+  "es": {
+    "work": [
+      {
+        "role": "Desarrollador Full-Stack",
+        "company": "Proyectos Reales (SaaS & POS)",
+        "date": "2024 — Presente",
+        "desc": "Creador y desarrollador principal de GoCartYa (Plataforma SaaS en producción) y creador de sistemas POS a medida para pymes usando React, Next.js, Python y bases de datos relacionales."
+      },
+      {
+        "role": "Cajero y Reponedor",
+        "company": "Unimarc",
+        "date": "2023 — Presente",
+        "desc": "Atención al cliente y manejo de caja en supermercado de alto flujo. Trabajo bajo presión y en equipo."
+      },
+      {
+        "role": "Operador de Bodega",
+        "company": "Falabella Tradist",
+        "date": "2023",
+        "desc": "Gestión logística y control de inventario en bodega de retail."
+      }
+    ],
+    "education": [
+      {
+        "degree": "Técnico en Ciberseguridad",
+        "school": "IPP Instituto Profesional de Providencia",
+        "date": "2026 — En curso",
+        "desc": "Seguridad informática, redes, análisis de vulnerabilidades."
+      },
+      {
+        "degree": "Ingeniería en Informática (3 años cursados)",
+        "school": "Duoc UC",
+        "date": "2023 — 2025",
+        "desc": "Programación, bases de datos, redes, desarrollo web."
+      }
+    ]
+  },
+  "en": {
+    "work": [
+      {
+        "role": "Full-Stack Developer",
+        "company": "Real Projects (SaaS & POS)",
+        "date": "2024 — Present",
+        "desc": "Creator and lead developer of GoCartYa (SaaS platform in production) and custom POS systems for small businesses using React, Next.js, Python, and relational databases."
+      },
+      {
+        "role": "Cashier & Restocker",
+        "company": "Unimarc",
+        "date": "2023 — Present",
+        "desc": "Customer service and cash management in a high-traffic supermarket. Thrived under pressure and collaborated in teams."
+      },
+      {
+        "role": "Warehouse Operator",
+        "company": "Falabella Tradist",
+        "date": "2023",
+        "desc": "Logistics management and inventory control in a retail warehouse."
+      }
+    ],
+    "education": [
+      {
+        "degree": "Cybersecurity Technician",
+        "school": "IPP Instituto Profesional de Providencia",
+        "date": "2026 — Present",
+        "desc": "Information security, networks, vulnerability analysis."
+      },
+      {
+        "degree": "Informatics Engineering (3 years completed)",
+        "school": "Duoc UC",
+        "date": "2023 — 2025",
+        "desc": "Programming, databases, networking, web development."
+      }
+    ]
+  }
+}

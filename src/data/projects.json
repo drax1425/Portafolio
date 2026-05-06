@@ -93,5 +93,66 @@
       "Funcionalidades Premium: múltiples cartas (salón/delivery/eventos), stock inteligente y estadísticas avanzadas",
       "Flujo de upgrade y cobro automático con webhooks y registro de pagos"
     ]
+  },
+  {
+    "id": 1773500000001,
+    "name_en": "TableOS",
+    "name_es": "TableOS",
+    "url": "https://github.com/drax1425/tableOS-",
+    "description_en": "Smart POS system for Chilean cafés and restaurants. Handles order management, real-time kitchen display, recipe-based inventory control, and sales reports — all in one platform.",
+    "description_es": "Sistema POS inteligente para cafeterías y restaurantes chilenos. Gestión de pedidos, pantalla de cocina en tiempo real, control de inventario por receta y reportes de ventas — todo en uno.",
+    "image": "/images/tableos-icon.png",
+    "techs": [
+      "Next.js",
+      "TypeScript",
+      "Supabase",
+      "Realtime"
+    ],
+    "features_en": [
+      "Touch POS for fast order taking on any device",
+      "Real-time kitchen display per station (kitchen, bar, dispatch)",
+      "Recipe-based inventory with automatic stock deduction on sale",
+      "Sales reports: daily revenue, average ticket, top products",
+      "Waitlist with live counter using Supabase Realtime",
+      "Transparent pricing: Free (3-month Early Access) and Pro plan"
+    ],
+    "features_es": [
+      "POS táctil para tomar pedidos en segundos desde cualquier dispositivo",
+      "Pantalla de cocina en tiempo real por estación (cocina, barra, despacho)",
+      "Control de inventario por receta con descuento automático al vender",
+      "Reportes de ventas: ingresos del día, ticket promedio, productos top",
+      "Waitlist con contador en vivo usando Supabase Realtime",
+      "Planes transparentes: Free (3 meses Early Access) y Pro"
+    ]
+  },
+  {
+    "id": 1773500000002,
+    "name_en": "Propinas Café",
+    "name_es": "Propinas Café",
+    "url": "https://github.com/drax1425/propina",
+    "description_en": "Installable PWA for tip management at a café. Tracks daily tips per employee, features role-based auth (barista/manager), works offline via Service Worker, and syncs with Supabase.",
+    "description_es": "PWA instalable para gestión de propinas en una cafetería. Registro de propinas diarias por empleado, autenticación con roles (barista/gerente), funciona offline con Service Worker y sincroniza con Supabase.",
+    "image": "/images/propina-icon.png",
+    "techs": [
+      "PWA",
+      "HTML",
+      "JavaScript",
+      "Supabase",
+      "CSS"
+    ],
+    "features_en": [
+      "Daily tip registration per employee",
+      "Role-based authentication: Barista and Manager views",
+      "Offline-capable with Service Worker caching",
+      "Real-time sync with Supabase backend",
+      "Installable as a native app on mobile (PWA)"
+    ],
+    "features_es": [
+      "Registro de propinas diarias por empleado",
+      "Autenticación con roles: vistas de Barista y Gerente",
+      "Funciona sin internet gracias a Service Worker",
+      "Sincronización en tiempo real con Supabase",
+      "Instalable como app nativa en móvil (PWA)"
+    ]
   }
 ]
