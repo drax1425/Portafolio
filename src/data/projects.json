@@ -129,7 +129,7 @@
     "id": 1773500000002,
     "name_en": "Propinas Café",
     "name_es": "Propinas Café",
-    "url": "https://github.com/drax1425/propina",
+    "url": "https://propina-nine.vercel.app/",
     "description_en": "Installable PWA for tip management at a café. Tracks daily tips per employee, features role-based auth (barista/manager), works offline via Service Worker, and syncs with Supabase.",
     "description_es": "PWA instalable para gestión de propinas en una cafetería. Registro de propinas diarias por empleado, autenticación con roles (barista/gerente), funciona offline con Service Worker y sincroniza con Supabase.",
     "image": "/images/propina-icon.png",
